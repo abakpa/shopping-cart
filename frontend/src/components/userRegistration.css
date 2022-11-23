@@ -1,0 +1,31 @@
+.user__registration {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+}
+
+.user__registration h2 {
+    text-align: center;
+}
+
+.user__registration label {
+    font-size: 20px;
+}
+
+.user__registration input {
+    padding: 25px 0px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: none;
+}
+
+.user__registration button {
+    background: black;
+    color: white;
+    padding: 30px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}

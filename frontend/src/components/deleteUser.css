@@ -1,0 +1,32 @@
+.delete__user {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.delete__user button {
+    margin-left: 150px;
+    margin-top: 50px;
+    padding: 10px 30px;
+    background-color: deeppink;
+    color: #fff;
+    border: none;
+}
+
+.delete__user button:hover {
+    cursor: pointer;
+}
+
+.delete__user span {
+    color: deeppink;
+    font-size: 20px;
+}
+
+.go__back {
+    color: #fff;
+    background-color: deeppink;
+    text-decoration: none;
+    padding: 10px 30px;
+}

@@ -1,0 +1,28 @@
+body {
+    background: rgb(218, 215, 215);
+}
+
+.register__product {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.register__product label {
+    margin: 20px 0px;
+    font-size: large;
+}
+
+.register__product input {
+    padding: 20px 2px;
+    border: none;
+}
+
+.register__product button {
+    padding: 20px 2px;
+    margin-top: 20px;
+    border: none;
+    background: black;
+    color: white;
+}

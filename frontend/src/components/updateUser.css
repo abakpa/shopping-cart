@@ -1,0 +1,33 @@
+.update__user {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+}
+
+.update__user h2 {
+    text-align: center;
+}
+
+.update__user label {
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.update__user input {
+    padding: 25px 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+}
+
+.update__user button {
+    background: black;
+    color: white;
+    padding: 30px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}

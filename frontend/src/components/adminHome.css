@@ -1,0 +1,23 @@
+.admin__home {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.user__section {
+    margin-top: 30px;
+    color: #dd219e;
+}
+
+.user__section h2 {
+    color: black;
+}
+
+.product__section {
+    margin-top: 30px;
+    color: #dd219e;
+}
+
+.product__section h2 {
+    color: black;
+}

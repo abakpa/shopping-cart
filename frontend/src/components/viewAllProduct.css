@@ -1,0 +1,65 @@
+.update__product {
+    width: 1300px;
+    margin: auto;
+}
+
+.update__product img {
+    width: 300px;
+    height: 200px;
+    background: #fff;
+}
+
+.product__name {
+    padding: 10px;
+    margin-top: 10px;
+    background: chocolate;
+    width: 300px;
+    font-size: larger;
+}
+
+.product__description {
+    width: 300px;
+    margin: 20px 0px;
+}
+
+.product__price {
+    padding: 10px;
+    background: chocolate;
+    width: 150px;
+}
+
+.product__countInStock {
+    padding: 10px;
+    background: chocolate;
+    width: 150px;
+    margin: 10px 0px;
+}
+
+.update__delete {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.update__button {
+    background: black;
+    color: #fff;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.delete__button {
+    background: black;
+    color: #fff;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.update__delete Link {
+    text-decoration: none;
+}
