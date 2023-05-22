@@ -5,7 +5,10 @@ export const registerUser = (postData) => async (dispatch) => {
   try {
     dispatch({ type: actionTypes.POST_USER_REQUEST });
 
-    const { data } = await axios.post("/api/users", postData);
+    const { data } = await axios.post(
+      "http://localhost:5000/api/users",
+      postData
+    );
 
     dispatch({
       type: actionTypes.POST_USER_SUCCESS,
@@ -23,7 +26,7 @@ export const getAllUser = () => async (dispatch) => {
   try {
     dispatch({ type: actionTypes.GET_ALLUSER_REQUEST });
 
-    const { data } = await axios.get("/api/users");
+    const { data } = await axios.get("http://localhost:5000/api/users");
 
     dispatch({
       type: actionTypes.GET_ALLUSER_SUCCESS,
@@ -41,7 +44,9 @@ export const getUser = (userId) => async (dispatch) => {
   try {
     dispatch({ type: actionTypes.GET_USER_REQUEST });
 
-    const { data } = await axios.get(`/api/users/${userId}`);
+    const { data } = await axios.get(
+      `http://localhost:5000/api/users/${userId}`
+    );
 
     dispatch({
       type: actionTypes.GET_USER_SUCCESS,
@@ -59,7 +64,10 @@ export const updateUser = (id, postData) => async (dispatch) => {
   try {
     dispatch({ type: actionTypes.UPDATE_USER_REQUEST });
 
-    const { data } = await axios.patch(`/api/users/${id}`, postData);
+    const { data } = await axios.patch(
+      `http://localhost:5000/api/users/${id}`,
+      postData
+    );
 
     dispatch({
       type: actionTypes.UPDATE_USER_SUCCESS,
@@ -77,7 +85,9 @@ export const deleteUser = (id) => async (dispatch) => {
   try {
     dispatch({ type: actionTypes.DELETE_USER_REQUEST });
 
-    const { data } = await axios.put(`/api/users/delete/${id}`);
+    const { data } = await axios.put(
+      `http://localhost:5000/api/users/delete/${id}`
+    );
 
     dispatch({
       type: actionTypes.DELETE_USER_SUCCESS,
